@@ -124,7 +124,7 @@ function stop_system()
 }
 function install_kangle()
 {
-        DOWNLOAD_PREFIX="http://github.itzmx.com/1265578519/cdnbest/main/cdnbest/"
+        DOWNLOAD_PREFIX="https://raw.githubusercontent.com/dsjfkf-droid/newcdnbest/main/cdnbest/"
         ARCH="-$OS"
        	if test `arch` = "x86_64"; then
                 ARCH="$ARCH-x64"
